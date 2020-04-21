@@ -4,7 +4,7 @@ public class Card {
     private Timer timer;
     private String name, description;
 
-    Card(String name) {
+    public Card(String name) {
         this.name = name;
         this.timer = new Timer();
     }

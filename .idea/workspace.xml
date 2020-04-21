@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e37865f-92ad-4f48-abcb-06bd31ca4e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/card/Timer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1aqGzw5tpO73EoGjGsC06RSYqBG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -61,7 +71,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -114,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587455978599</updated>
       <workItem from="1587455988464" duration="3964000" />
-      <workItem from="1587467518564" duration="4353000" />
+      <workItem from="1587467518564" duration="13612000" />
     </task>
     <servers />
   </component>
@@ -145,21 +155,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="141" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1587459706058" />
-    <state width="1320" height="185" key="GridCell.Tab.0.bottom" timestamp="1587460009283">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1320" height="421" key="GridCell.Tab.0.bottom" timestamp="1587485868582">
+      <screen x="0" y="0" width="1366" height="737" />
     </state>
+    <state width="1320" height="421" key="GridCell.Tab.0.bottom/0.0.1366.737@0.0.1366.737" timestamp="1587485868582" />
     <state width="1320" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587460009283" />
-    <state width="1320" height="185" key="GridCell.Tab.0.center" timestamp="1587460009282">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1320" height="421" key="GridCell.Tab.0.center" timestamp="1587485868580">
+      <screen x="0" y="0" width="1366" height="737" />
     </state>
+    <state width="1320" height="421" key="GridCell.Tab.0.center/0.0.1366.737@0.0.1366.737" timestamp="1587485868580" />
     <state width="1320" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587460009282" />
-    <state width="1320" height="185" key="GridCell.Tab.0.left" timestamp="1587460009281">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1320" height="421" key="GridCell.Tab.0.left" timestamp="1587485868578">
+      <screen x="0" y="0" width="1366" height="737" />
     </state>
+    <state width="1320" height="421" key="GridCell.Tab.0.left/0.0.1366.737@0.0.1366.737" timestamp="1587485868578" />
     <state width="1320" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587460009281" />
-    <state width="1320" height="185" key="GridCell.Tab.0.right" timestamp="1587460009282">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1320" height="421" key="GridCell.Tab.0.right" timestamp="1587485868581">
+      <screen x="0" y="0" width="1366" height="737" />
     </state>
+    <state width="1320" height="421" key="GridCell.Tab.0.right/0.0.1366.737@0.0.1366.737" timestamp="1587485868581" />
     <state width="1320" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587460009282" />
     <state width="1320" height="230" key="GridCell.Tab.1.bottom" timestamp="1587457656772">
       <screen x="0" y="0" width="1366" height="768" />
@@ -181,10 +195,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="432" y="84" width="924" height="682" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1587456874759" />
-    <state x="166" y="0" width="1024" height="766" key="SettingsEditor" timestamp="1587474904967">
+    <state x="166" y="0" width="1024" height="766" key="SettingsEditor" timestamp="1587476826787">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
-    <state x="166" y="0" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1587474904967" />
+    <state x="166" y="0" key="SettingsEditor/0.0.1366.737@0.0.1366.737" timestamp="1587476826787" />
     <state x="166" y="0" width="1024" height="766" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587458549864" />
     <state x="377" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1587455988472">
       <screen x="0" y="0" width="1366" height="768" />
@@ -194,25 +208,6 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1587459735911" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/target/classes/App.class</url>
-          <line>6</line>
-          <properties class="App" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/target/classes/App.class</url>
-          <line>5</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/task_line$.ic" NAME=" Coverage Results" MODIFIED="1587459746581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
