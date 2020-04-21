@@ -29,7 +29,7 @@ public class Database {
                 FileInputStream fis = new FileInputStream(this.name);
                 ObjectInputStream ois = new ObjectInputStream(fis);
                 System.out.printf("serialized tsln object found!\n");
-                System.out.printf(ois.toString());
+                System.out.println(ois.toString());
                 this.tl = (TaskLineType) ois.readObject();
             } catch (Exception e) {
                 e.printStackTrace();
