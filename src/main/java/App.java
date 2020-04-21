@@ -1,14 +1,9 @@
-import core.card.Card;
 import database.Database;
 
-import java.io.IOException;
-
 public class App {
-
-    public static void main(String[] args) throws IOException {
-        System.out.println("Hello World");
-        Database tasklistDB = new Database("tasklist.json");
-        tasklistDB.commit();
+    public static void main(String[] args) {
+        System.out.println("initializing taskline ...");
+        Database tasklistDB = new Database("taskline.tsln");
+        System.out.printf("exiting taskline !\n");
     }
-
 }
