@@ -1,4 +1,4 @@
-package database;
+package core.database;
 
 import java.io.*;
 import java.sql.Timestamp;

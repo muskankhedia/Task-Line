@@ -1,4 +1,4 @@
-import database.Database;
+import core.database.Database;
 
 public class App {
     public static void main(String[] args) {
